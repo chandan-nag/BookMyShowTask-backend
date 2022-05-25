@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="4fad04d1-d947-4b63-a293-abc117ae1f77" ChangeDateTime="05/25/2022 10:51:09">
+    <Property Name="ElementName" Value="[dbo].[Customer].[Occupation]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Customer]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="E" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="c904809c-fda7-4fc3-82ac-1bd8cb85cb53" ChangeDateTime="05/25/2022 10:51:20">
+    <Property Name="ElementName" Value="[dbo].[Customer].[E]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Customer]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Email" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="88912713-6270-4ecd-892d-0304a7362d8c" ChangeDateTime="05/25/2022 11:00:41">
+    <Property Name="ElementName" Value="[dbo].[Ticket].[Price]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Ticket]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="MovieId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="a5d840ac-7a4c-4858-a5f3-4b60e0167940" ChangeDateTime="05/25/2022 11:00:47">
+    <Property Name="ElementName" Value="[dbo].[Ticket].[SeatType]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Ticket]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="TheareId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="2e656c92-b2f7-46a0-839c-a80541e34241" ChangeDateTime="05/25/2022 11:00:54">
+    <Property Name="ElementName" Value="[dbo].[Ticket].[Timing]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Ticket]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="NoOfSeats" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="9e03218b-8980-4308-825e-fb648bc734f7" ChangeDateTime="05/25/2022 11:01:00">
+    <Property Name="ElementName" Value="[dbo].[Ticket].[CustomerId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Ticket]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ShowId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="e298c686-5ffb-47bc-b508-0974a095f543" ChangeDateTime="05/25/2022 11:01:14">
+    <Property Name="ElementName" Value="[dbo].[Ticket].[TheareId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Ticket]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="TheatreId" />
+  </Operation>
+</Operations>
